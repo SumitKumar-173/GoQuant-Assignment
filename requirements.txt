@@ -1,0 +1,42 @@
+# Core dependencies
+requests==2.32.3
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+tweepy==4.14.0  # Twitter API
+praw==7.7.1      # Reddit API
+newsapi-python==0.2.7
+yfinance==0.2.4
+polygon-api-client==0.5.1
+alpha-vantage==2.3.1
+
+# NLP and ML
+transformers==4.36.0
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+nltk==3.8.1
+textblob==0.17.1
+vaderSentiment==3.3.2
+spacy==3.7.2
+
+# Data processing
+asyncio==3.4.3
+aiohttp==3.9.1
+concurrent-log-handler==0.9.20
+schedule==1.2.0
+redis==5.0.1
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.0
+fastapi==0.104.1
+uvicorn==0.24.0
+pyarrow==14.0.2
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
